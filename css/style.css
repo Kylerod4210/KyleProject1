@@ -1,0 +1,92 @@
+header, body nav {
+
+background:linear-gradient(#C9C9C9,#A9A9A9,#3A3A3A,#0A0A0A);
+border-bottom: 2px solid #99DDFF;
+}
+
+button:hover,li a:hover {
+
+background:linear-gradient(#0A0A0A,#3A3A3A,#A9A9A9,#C9C9C9);
+color:#99DDFF;
+}
+
+section:nth-child(2) {
+
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+  width:2500px;
+  height: 400px
+  margin: auto;
+  animation: slide 45s;
+  animation-delay: -3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  }
+  @keyframes slide {
+  20%{
+      background-image:url("../img/City 2.jpg");
+  }
+  40%{
+      background-image:url("../img/City 3.jpg");
+  }
+  60%{
+      background-image:url("../img/City 4.jpg");
+  }
+  80%{
+      background-image:url("../img/City 5.jpg");
+  }
+  100%{
+      background-image:url("../img/City 1.jpg");
+   }
+  }
+
+
+section:nth-child(3) {
+
+background:linear-gradient(#CEC3B5,#3879A4,#1C66BD);
+text-align:center;
+}
+
+section h1 {
+
+font-size: 4rem;
+padding: 10px;
+}
+
+section h2 {
+
+font-size:2rem;
+padding:5px;
+}
+
+a {
+
+font-size:2.0rem;
+}
+
+article {
+
+font-size:2.0rem;
+line-height:2.0;
+padding:20px;
+}
+
+article h1 {
+color: #000;
+font-size:  7rem;
+}
+
+article h2 {
+color: #000;
+font-size: 3rem;
+}
+
+footer {
+
+background:linear-gradient(#C9C9C9,#A9A9A9,#3A3A3A,#0A0A0A);
+text-align: center;
+color: #000;
+font-size: 2.0rem;
+}
