@@ -2,9 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 body {
   font-family: "Montserrat";
+
+
 }
 section {
   height: 100vh;
@@ -14,6 +17,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
 }
 .container {
   width: 90%;
@@ -24,23 +28,27 @@ section {
   background-color: white;
   border-radius: 8px;
   margin-bottom: 20px;
+
 }
 .form-group {
   width: 100%;
   margin-top: 20px;
   font-size: 20px;
+
 }
 .form-group input,
 .form-group textarea {
   width: 100%;
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
   border: 1px solid rgba(128, 128, 128, 0.199);
   margin-top: 5px;
+
 }
 
 textarea {
   resize: vertical;
+
 }
 button[type="submit"] {
   width: 100%;
@@ -55,6 +63,7 @@ button[type="submit"] {
   cursor: pointer;
   margin-top: 10px;
   transition: 0.3s ease background-color;
+
 }
 button[type="submit"]:hover {
   background-color: rgb(214, 226, 236);

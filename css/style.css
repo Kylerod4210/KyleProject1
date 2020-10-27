@@ -49,10 +49,17 @@ background:linear-gradient(#CEC3B5,#3879A4,#1C66BD);
 text-align:center;
 }
 
+section h3 {
+
+font-size: 4rem;
+padding: 10px;
+}
+
 section h1 {
 
 font-size: 4rem;
 padding: 10px;
+color: #000;
 }
 
 section h2 {
@@ -64,6 +71,7 @@ padding:5px;
 a {
 
 font-size:2.0rem;
+color: #000;
 }
 
 article {
@@ -71,16 +79,26 @@ article {
 font-size:2.0rem;
 line-height:2.0;
 padding:20px;
+color: #000;
+}
+
+article h3 {
+color: #000;
+font-size:  5rem;
+padding:5px;
+text-align:center;
 }
 
 article h1 {
 color: #000;
 font-size:  7rem;
+text-align:center;
 }
 
 article h2 {
 color: #000;
 font-size: 3rem;
+text-align:center;
 }
 
 footer {
